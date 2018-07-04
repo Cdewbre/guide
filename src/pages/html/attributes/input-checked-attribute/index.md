@@ -3,13 +3,25 @@ title: Input Checked Attribute
 ---
 ## Input Checked Attribute
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/attributes/input-checked-attribute/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Use the checked attribute to pre-select (check) a `radio` or `checkbox` input type control on page load.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+**Syntax**:
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+`  <input checked>` 
 
-#### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+To pre-select a control, add the checked attribute to the `<input>` tag.
 
+**For example:**
+
+```html
+<form>
+  <input type="checkbox" name="fruit" value="apple"> I like apples<br>
+  <input type="checkbox" name="fruit" value="orange" checked> I like oranges<br>
+  <input type="checkbox" name="fruit" value="banana"> I like bananas<br>
+</form>
+```
+
+All major browsers support the `<input checked>` attribute.
+
+Note: in XHTML, you cannot minimize a tag. The syntax is: `<input checked="checked" />`
 
